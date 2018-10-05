@@ -1,0 +1,23 @@
+{
+  "name": "graphql-demo",
+  "version": "1.0.0",
+  "description": "A demo app on GraphQL",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js --exec babel-node --presets es2015,stage-2"
+  },
+  "author": "Sri Harsha Kappala",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-node6": "^11.0.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^14.0.2",
+    "graphql-playground-middleware": "^1.1.2",
+    "nodemon": "^1.18.4"
+  }
+}
